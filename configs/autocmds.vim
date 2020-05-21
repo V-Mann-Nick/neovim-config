@@ -1,12 +1,7 @@
 " nvim
-autocmd! bufwritepost init.vim source %
+autocmd Bufwritepost init.vim source %
 map <leader>ev :vsp $MYVIMRC<CR>
-autocmd! bufwritepost ~/.config/nvim/plug-config/*.vim source $MYVIMRC
-
-" nvim
-autocmd! bufwritepost init.vim source %
-map <leader>ev :vsp $MYVIMRC<CR>
-autocmd! bufwritepost ~/.config/nvim/plug-config/*.vim source $MYVIMRC
+autocmd Bufwritepost ~/.config/nvim/configs/* source $MYVIMRC
 
 " sxhkd
 autocmd bufwritepost sxhkdrc !restartsx

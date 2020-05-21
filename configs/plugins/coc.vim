@@ -6,10 +6,10 @@ let g:coc_global_extensions = [
       \'coc-vetur',
       \'coc-python',
       \'coc-snippets',
-      \'coc-explorer',
       \'coc-json',
       \'coc-html',
 \]
+      " \'coc-explorer',
       " \'coc-tslint',
       " \'coc-cssmodules',
 
@@ -152,4 +152,4 @@ nnoremap <silent> <space>k  :<C-u>CocPrev<CR>
 nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
 
 " Open explorer
-:nmap <space>e :CocCommand explorer<CR>
+" :nmap <space>e :CocCommand explorer<CR>

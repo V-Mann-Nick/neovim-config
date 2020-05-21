@@ -20,3 +20,11 @@ map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
+
+" easy windows resizing
+" nnoremap <M-j> :resize -10<cr>
+" Use alt + hjkl to resize windows
+nnoremap <silent> <C-M-j>    :resize -2<CR>
+nnoremap <silent> <C-M-k>    :resize +2<CR>
+nnoremap <silent> <C-M-h>    :vertical resize -2<CR>
+nnoremap <silent> <C-M-l>    :vertical resize +2<CR>
