@@ -28,3 +28,6 @@ nnoremap <silent> <C-M-j>    :resize -2<CR>
 nnoremap <silent> <C-M-k>    :resize +2<CR>
 nnoremap <silent> <C-M-h>    :vertical resize -2<CR>
 nnoremap <silent> <C-M-l>    :vertical resize +2<CR>
+
+" expand to self closing tag
+imap <C-y>k <Space><BS><C-y>,<ESC>hi<C-y>j/\/><Enter>hi<Space>
